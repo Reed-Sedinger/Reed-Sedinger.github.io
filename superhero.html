@@ -27,44 +27,48 @@
               font-weight: bold;
               color: darkred;
             }
-            .tableheader
+            #tableheader
             {
                text-decoration: underline; 
+            }
+            .tablerow
+            {
+                color: darkred;
             }
         </style>
     </head>
     <body>
         <table>
             <caption> Superhero Analysis</caption>
-            <tr class="tableheader">
+            <tr id="tableheader">
               <th>Name</th>
               <th>Alias</th>
               <th>Image</th>
               <th>Superpower</th>
               <th>Weakness</th>
             </tr>
-            <tr>
+            <tr class="tablerow">
                 <th>Captin America</th>
                 <td>Cap</td>
                 <td><a href="images/Captin America.jpeg"><img src="images/Captin America.jpeg" alt="Captin America" height="100px"></a></td>
                 <td>Enhanced strength, speed, stamina</td>
                 <td>Ability to get mortally wounded</td>
             </tr>
-            <tr>
+            <tr class="tablerow">
                 <th>Flash</th>
                 <td>Jay Garrack</td>
                 <td><a href="images/Flash.jpg"><img src="images/Flash.jpg" alt="Flash" height="100"></a></td>
                 <td>Superhuman speed</td>
                 <td>Banana peels</td>
             </tr>
-            <tr>
+            <tr class="tablerow">
                 <th>Green Lantern</th>
                 <td>Hal Jordon</td>
                 <td><a href="images/Green Lantern.jpeg"><img src="images/Green Lantern.jpeg" alt="Green Lantern" height="100px"></a></td>
                 <td>Flight, Hypnosis, Invisibility</td>
                 <td>Fear</td>
             </tr>
-            <tr>
+            <tr class="tablerow">
                 <th>Deadpool</th>
                 <td>Wade Wilson</td>
                 <td><a href="images/Deadpool.jpeg"><img src="images/Deadpool.jpeg" alt="Deadpool" height="100px"></a></td>
