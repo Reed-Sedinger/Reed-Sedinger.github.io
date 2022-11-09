@@ -12,16 +12,25 @@ section h2
 {
   font-size: 28pt;
 }
+section
+{
+  border: 3px solid white;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding: 10px;
+}
 ul
 {
   font-size: 18pt;
 }
 .date
 {
-  color: rgb: (255,120,0)
+  color: rgb: (255,120,0);
+  display: block;
+  float: right;
 }
 nav a
-}
+{
   font-size: 20pt;
   font-weight: bold;
   color: rgb: (255,255,255);
