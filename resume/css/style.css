@@ -9,10 +9,14 @@ h1
   font-size: 35;
 }
 section h2
-}
+{
   font-size: 28pt;
 }
 ul
-}
+{
   font-size: 18pt;
+}
+.date
+{
+  color: rgb: (255,120,0)
 }
