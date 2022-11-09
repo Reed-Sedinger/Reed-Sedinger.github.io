@@ -1,15 +1,18 @@
 body
 {
-  background-color: rgb(210,180,140);
+  background-color: rgb(32,42,68);
 }
 h1
 {
-  text-decoration: underline;
   text-align: center;
-  color: rgb: (21,71,52);
+  color: rgb: (143,201,81);
+  font-size: 35;
+}
+section h2
+}
+  font-size: 28pt;
 }
 ul
-{
-  fontsize: 20pt;
-  text-align: center;
+}
+  font-size: 18pt;
 }
