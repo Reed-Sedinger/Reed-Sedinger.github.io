@@ -22,3 +22,8 @@ img.mainlogo
 {
   width: 45vmax;
 }
+iframe
+{
+  width: 90vw;
+  height: 50.63vw;
+}
