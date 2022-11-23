@@ -13,3 +13,11 @@ ul
   fontsize: 20pt;
   text-align: center;
 }
+p
+{
+  font-size: 2.8vmax;
+}
+img
+{
+  width: 45vmax;
+}
